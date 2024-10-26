@@ -1,16 +1,16 @@
-import { Header, StatCard } from '../components/common/w-allCommon';
 import { motion } from 'framer-motion';
 import { STATCARD_ITEMS_OVP } from '../data/StatCardItems';
+import { Header, StatCard } from '../components/common/w-allCommon';
 import {
   SalesOverviewChart,
   CategoryDistributionChart,
+  SalesChannelChart,
 } from '../components/overview/w-allOverview';
 
 export default function OverviewPage() {
   return (
     <div className="flex-1 overflow-auto relative z-10">
       <Header title="Overview" />
-
       <main className="max-w-7xl mx-auto py-6 px-4 lg:px-8">
         {/* STATS */}
         <motion.div
@@ -33,6 +33,7 @@ export default function OverviewPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <SalesOverviewChart />
           <CategoryDistributionChart />
+          <SalesChannelChart />
         </div>
       </main>
     </div>

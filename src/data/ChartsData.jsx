@@ -20,3 +20,11 @@ export const CATEGORY_DATA = [
   { name: 'Books', value: 2100, color: '#10B981' },
   { name: 'Sports', value: 1900, color: '#F59E0B' },
 ];
+
+export const SALES_CHANNEL_DATA = [
+  { name: 'Website', value: 51600, color: '#0379b9' },
+  { name: 'Social Media', value: 18700, color: '#ec485b' },
+  { name: 'Mobile App', value: 38200, color: '#F59E0B' },
+  { name: 'Marketplace', value: 29800, color: '#10B981' },
+  { name: 'Fair', value: 20700, color: '#8B5CF6' },
+];
