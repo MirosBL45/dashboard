@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Menu } from 'lucide-react';
 
-import { SIDEBAR_ITEMS } from '../data/SidebarItems';
+import { SIDEBAR_ITEMS } from '../../data/SidebarItems';
 
 export default function Sidebar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);

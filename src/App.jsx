@@ -10,7 +10,7 @@ import {
   UsersPage,
 } from './pages/w-allPages';
 
-import Sidebar from './components/Sidebar';
+import { Sidebar } from './components/common/w-allCommon';
 
 function App() {
   return (
