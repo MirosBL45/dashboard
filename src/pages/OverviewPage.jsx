@@ -1,7 +1,10 @@
 import { Header, StatCard } from '../components/common/w-allCommon';
 import { motion } from 'framer-motion';
 import { STATCARD_ITEMS_OVP } from '../data/StatCardItems';
-import SalesOverviewChart from '../components/overview/SalesOverviewChart';
+import {
+  SalesOverviewChart,
+  CategoryDistributionChart,
+} from '../components/overview/w-allOverview';
 
 export default function OverviewPage() {
   return (
@@ -27,9 +30,9 @@ export default function OverviewPage() {
           ))}
         </motion.div>
         {/* CHARTS */}
-
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <SalesOverviewChart />
+          <CategoryDistributionChart />
         </div>
       </main>
     </div>
