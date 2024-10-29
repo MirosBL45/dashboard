@@ -1,4 +1,5 @@
-import { Header, StatCard } from '../components/common/w-allCommon';
+import { Header } from '../components/common/w-allCommon';
+// import { motion } from 'framer-motion';
 
 export default function ProductsPage() {
   return (
