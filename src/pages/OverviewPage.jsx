@@ -1,6 +1,9 @@
-// import { motion } from 'framer-motion';
 import { STATCARD_ITEMS_OVP } from '../data/StatCardItems';
-import { StatCard, PageWrapper } from '../components/common/w-allCommon';
+import {
+  StatCard,
+  PageWrapper,
+  BottomPageWrapper,
+} from '../components/common/w-allCommon';
 import {
   SalesOverviewChart,
   CategoryDistributionChart,
@@ -28,11 +31,11 @@ export default function OverviewPage() {
       mainContent={
         <>
           {/* CHARTS */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <BottomPageWrapper>
             <SalesOverviewChart />
             <CategoryDistributionChart />
             <SalesChannelChart />
-          </div>
+          </BottomPageWrapper>
         </>
       }
     />
