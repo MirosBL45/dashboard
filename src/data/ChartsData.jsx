@@ -36,3 +36,12 @@ export const SALES_CHANNEL_DATA = [
   { name: 'Marketplace', value: 29800, color: '#10B981' },
   { name: 'Fair', value: 20700, color: '#8B5CF6' },
 ];
+
+export const SALES_TREND_DATA = [
+  { month: 'Jan', sales: 4000 },
+  { month: 'Feb', sales: 3000 },
+  { month: 'Mar', sales: 5000 },
+  { month: 'Apr', sales: 4500 },
+  { month: 'May', sales: 6000 },
+  { month: 'Jun', sales: 5500 },
+];
