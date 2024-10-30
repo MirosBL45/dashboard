@@ -13,12 +13,20 @@ export const SALES_DATA = [
   { name: 'Dec', sales: 7200 },
 ];
 
-export const CATEGORY_DATA = [
+export const CATEGORY_DATA_OVERVIEW = [
   { name: 'Electronics', value: 4500, color: '#0379b9' },
   { name: 'Clothing', value: 3200, color: '#8B5CF6' },
   { name: 'Home', value: 2800, color: '#ec485b' },
   { name: 'Books', value: 2100, color: '#10B981' },
   { name: 'Sports', value: 1900, color: '#F59E0B' },
+];
+
+export const CATEGORY_DATA_PRODUCTS = [
+  { name: 'Phone', value: 1200, color: '#8B5CF6' },
+  { name: 'Speakers', value: 2500, color: '#0379b9' },
+  { name: 'Mouse', value: 500, color: '#10B981' },
+  { name: 'USB', value: 900, color: '#F59E0B' },
+  { name: 'Watch', value: 2800, color: '#ec485b' },
 ];
 
 export const SALES_CHANNEL_DATA = [

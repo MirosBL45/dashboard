@@ -1,5 +1,5 @@
-import CategoryDistributionChart from './CategoryDistributionChart';
+import OverviewChart from './OverviewChart';
 import SalesOverviewChart from './SalesOverviewChart';
 import SalesChannelChart from './SalesChannelChart';
 
-export { CategoryDistributionChart, SalesOverviewChart, SalesChannelChart };
+export { OverviewChart, SalesOverviewChart, SalesChannelChart };

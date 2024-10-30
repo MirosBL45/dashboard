@@ -6,7 +6,7 @@ import {
 } from '../components/common/w-allCommon';
 import {
   SalesOverviewChart,
-  CategoryDistributionChart,
+  OverviewChart,
   SalesChannelChart,
 } from '../components/overview/w-allOverview';
 
@@ -33,7 +33,7 @@ export default function OverviewPage() {
           {/* CHARTS */}
           <BottomPageWrapper>
             <SalesOverviewChart />
-            <CategoryDistributionChart />
+            <OverviewChart />
             <SalesChannelChart />
           </BottomPageWrapper>
         </>

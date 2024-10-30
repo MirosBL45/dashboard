@@ -7,8 +7,8 @@ import {
 import {
   ProductsTable,
   SalesTrendChart,
+  ProductsChart,
 } from '../components/products/w-allProducts';
-import CategoryDistributionChart from '../components/overview/CategoryDistributionChart';
 
 export default function ProductsPage() {
   return (
@@ -33,7 +33,7 @@ export default function ProductsPage() {
           <ProductsTable />
           <BottomPageWrapper>
             <SalesTrendChart />
-            <CategoryDistributionChart />
+            <ProductsChart />
           </BottomPageWrapper>
         </>
       }
