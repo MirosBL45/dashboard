@@ -5,7 +5,7 @@ export default function OverviewChart() {
   return (
     <CategoryChart
       CATEGORY_DATA={CATEGORY_DATA_OVERVIEW}
-      title="Category Distribution"
+      title="Category Distribution Chart"
       transitionDelay={0.3}
     />
   );
