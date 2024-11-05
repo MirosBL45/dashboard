@@ -135,3 +135,5 @@ export const USER_DATA = [
     status: 'Active',
   },
 ];
+
+export const HEADER_USERS = ['Name', 'Email', 'Role', 'Status', 'Actions'];
