@@ -89,6 +89,15 @@ export const PRODUCT_DATA = [
   },
 ];
 
+export const HEADER_PRODUCTS = [
+  'Name',
+  'Category',
+  'Price',
+  'Stock',
+  'Sales',
+  'Actions',
+];
+
 export const USER_DATA = [
   {
     id: 1,

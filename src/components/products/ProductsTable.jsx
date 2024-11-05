@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
-import { Edit, Search, Trash2 } from 'lucide-react';
+import { Edit, Trash2 } from 'lucide-react';
 import { useState } from 'react';
-import { PRODUCT_DATA } from '../../data/ChartsData';
+import { PRODUCT_DATA, HEADER_PRODUCTS } from '../../data/ChartsData';
+import TableSearchHeader from '../common/TableSearchHeader';
 
 export default function ProductsTable() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -26,41 +27,23 @@ export default function ProductsTable() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.2 }}
     >
-      <div className="flex justify-between items-center mb-6">
-        <h2 className="text-xl font-semibold text-gray-100">Product List</h2>
-        <div className="relative">
-          <input
-            type="text"
-            placeholder="Search products..."
-            className="bg-gray-700 text-white placeholder-gray-400 rounded-lg pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            onChange={handleSearch}
-            value={searchTerm}
-          />
-          <Search className="absolute left-3 top-2.5 text-gray-400" size={18} />
-        </div>
-      </div>
+      <TableSearchHeader
+        title="Product List"
+        searchTerm={searchTerm}
+        onSearchChange={handleSearch}
+      />
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-700">
           <thead>
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Name
-              </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Category
-              </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Price
-              </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Stock
-              </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Sales
-              </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Actions
-              </th>
+              {HEADER_PRODUCTS.map((head, index) => (
+                <th
+                  key={index}
+                  className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider"
+                >
+                  {head}
+                </th>
+              ))}
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-700">
@@ -70,7 +53,7 @@ export default function ProductsTable() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.3 }}
-                className="hover:bg-sky-700"
+                className="hover:bg-purple-900"
               >
                 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-100 flex gap-2 items-center">
                   <img
