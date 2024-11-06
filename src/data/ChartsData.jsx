@@ -137,3 +137,12 @@ export const USER_DATA = [
 ];
 
 export const HEADER_USERS = ['Name', 'Email', 'Role', 'Status', 'Actions'];
+
+export const USER_GROWTH_DATA = [
+  { month: 'Jan', users: 1000 },
+  { month: 'Feb', users: 1700 },
+  { month: 'Mar', users: 1900 },
+  { month: 'Apr', users: 2100 },
+  { month: 'May', users: 4000 },
+  { month: 'Jun', users: 5000 },
+];

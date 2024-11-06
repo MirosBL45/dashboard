@@ -4,7 +4,7 @@ import {
   StatCard,
   BottomPageWrapper,
 } from '../components/common/w-allCommon';
-import { UsersTable } from '../components/users/w-allUsers';
+import { UsersTable, UserGrowthChart } from '../components/users/w-allUsers';
 
 export default function UsersPage() {
   return (
@@ -27,7 +27,9 @@ export default function UsersPage() {
       mainContent={
         <>
           <UsersTable />
-          <BottomPageWrapper>some data</BottomPageWrapper>
+          <BottomPageWrapper>
+            <UserGrowthChart />
+          </BottomPageWrapper>
         </>
       }
     />
