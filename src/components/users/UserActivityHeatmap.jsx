@@ -31,27 +31,25 @@ export default function UserActivityHeatmap() {
   }));
 
   return (
-    <div>
-      <ChartWrapper title={'User Activity Heatmap'} transitionDelay={0.4}>
-        <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={USER_ACTIVITY_DATA}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
-            <XAxis dataKey="name" stroke="#9CA3AF" />
-            <YAxis stroke="#9CA3AF" />
-            <Tooltip
-              contentStyle={{
-                backgroundColor: 'rgba(31, 41, 55, 0.8)',
-                borderColor: '#4B5563',
-              }}
-              itemStyle={{ color: '#E5E7EB' }}
-            />
-            <Legend />
-            {segments.map(({ range, color }, index) => (
-              <Bar key={index} dataKey={range} stackId={'a'} fill={color} />
-            ))}
-          </BarChart>
-        </ResponsiveContainer>
-      </ChartWrapper>
-    </div>
+    <ChartWrapper title={'User Activity Heatmap'} transitionDelay={0.4}>
+      <ResponsiveContainer width="100%" height="100%">
+        <BarChart data={USER_ACTIVITY_DATA}>
+          <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+          <XAxis dataKey="name" stroke="#9CA3AF" />
+          <YAxis stroke="#9CA3AF" />
+          <Tooltip
+            contentStyle={{
+              backgroundColor: 'rgba(31, 41, 55, 0.8)',
+              borderColor: '#4B5563',
+            }}
+            itemStyle={{ color: '#E5E7EB' }}
+          />
+          <Legend />
+          {segments.map(({ range, color }, index) => (
+            <Bar key={index} dataKey={range} stackId={'a'} fill={color} />
+          ))}
+        </BarChart>
+      </ResponsiveContainer>
+    </ChartWrapper>
   );
 }

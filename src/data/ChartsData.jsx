@@ -212,3 +212,11 @@ export const USER_ACTIVITY_DATA = [
     '20-24': 90,
   },
 ];
+
+export const USER_DEMOGRAPHIC_DATA = [
+  { name: '18-24', value: 20, color: '#0b69eb' },
+  { name: '25-34', value: 30, color: '#8455f1' },
+  { name: '35-44', value: 25, color: '#c9091f' },
+  { name: '45-54', value: 15, color: '#04e81b' },
+  { name: '55+', value: 10, color: '#F59E0B' },
+];
