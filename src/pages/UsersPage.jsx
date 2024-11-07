@@ -8,6 +8,7 @@ import {
   UsersTable,
   UserGrowthChart,
   UserActivityHeatmap,
+  UserDemographicsChart,
 } from '../components/users/w-allUsers';
 
 export default function UsersPage() {
@@ -34,6 +35,7 @@ export default function UsersPage() {
           <BottomPageWrapper>
             <UserGrowthChart />
             <UserActivityHeatmap />
+            <UserDemographicsChart />
           </BottomPageWrapper>
         </>
       }
