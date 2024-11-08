@@ -11,6 +11,8 @@ import {
   UserPlus,
   UserCheck,
   UserX,
+  CreditCard,
+  ShoppingCart,
 } from 'lucide-react';
 
 export const STATCARD_ITEMS_OVP = [
@@ -37,4 +39,26 @@ export const USER_STATS_UP = [
   { name: 'New Users Today', icon: UserPlus, value: 243, color: '#10B981' },
   { name: 'Active Users', icon: UserCheck, value: 98520, color: '#F59E0B' },
   { name: 'Churn Rate', icon: UserX, value: '2.4%', color: '#EF4444' },
+];
+
+export const SALES_STATS_SP = [
+  {
+    name: 'Total Revenue',
+    icon: CreditCard,
+    value: '$1,234,567',
+    color: '#6366F1',
+  },
+  {
+    name: 'Average Order Value',
+    icon: DollarSign,
+    value: '$78.90',
+    color: '#10B981',
+  },
+  {
+    name: 'Conversion Rate',
+    icon: ShoppingCart,
+    value: '3.45%',
+    color: '#F59E0B',
+  },
+  { name: 'Sales Growth', icon: TrendingUp, value: '12.3%', color: '#EF4444' },
 ];
