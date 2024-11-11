@@ -220,3 +220,42 @@ export const USER_DEMOGRAPHIC_DATA = [
   { name: '45-54', value: 15, color: '#04e81b' },
   { name: '55+', value: 10, color: '#F59E0B' },
 ];
+
+export const SALES_DATA_YEAR = [
+  { month: 'Jan', sales: 4000 },
+  { month: 'Feb', sales: 3000 },
+  { month: 'Mar', sales: 5000 },
+  { month: 'Apr', sales: 4500 },
+  { month: 'May', sales: 6000 },
+  { month: 'Jun', sales: 5000 },
+  { month: 'Jul', sales: 4000 },
+  { month: 'Aug', sales: 3500 },
+  { month: 'Sep', sales: 6000 },
+  { month: 'Oct', sales: 3300 },
+  { month: 'Nov', sales: 5500 },
+  { month: 'Dec', sales: 7000 },
+];
+
+export const SALES_DATA_QUARTER = [
+  { month: 'Oct', sales: 3300 },
+  { month: 'Nov', sales: 5500 },
+  { month: 'Dec', sales: 7000 },
+];
+
+export const SALES_DATA_HALF = [
+  { month: 'Jul', sales: 4000 },
+  { month: 'Aug', sales: 3500 },
+  { month: 'Sep', sales: 6000 },
+  { month: 'Oct', sales: 3300 },
+  { month: 'Nov', sales: 5500 },
+  { month: 'Dec', sales: 7000 },
+];
+
+export const SALES_DATA_MONTH = [
+  { date: '1', sales: 3300 },
+  { date: '5', sales: 3800 },
+  { date: '15', sales: 4000 },
+  { date: '20', sales: 4200 },
+  { date: '25', sales: 4700 },
+  { date: '30', sales: 5500 },
+];
