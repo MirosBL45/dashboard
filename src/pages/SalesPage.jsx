@@ -1,9 +1,10 @@
 import { SALES_STATS_SP } from '../data/StatCardItems';
 import {
+  BottomPageWrapper,
   PageWrapper,
   StatCard,
-  // BottomPageWrapper,
 } from '../components/common/w-allCommon';
+import { SalesOverviewChart } from '../components/sales/w-allSales';
 
 export default function SalesPage() {
   return (
@@ -21,6 +22,12 @@ export default function SalesPage() {
               color={item.color}
             />
           ))}
+        </>
+      }
+      mainContent={
+        <>
+          <SalesOverviewChart />
+          <BottomPageWrapper>bottom page</BottomPageWrapper>
         </>
       }
     />
