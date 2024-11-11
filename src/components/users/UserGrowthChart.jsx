@@ -12,7 +12,7 @@ import { USER_GROWTH_DATA } from '../../data/ChartsData';
 
 export default function UserGrowthChart() {
   return (
-    <div>
+    <div className="col-span-2 lg:col-span-1">
       <ChartWrapper title={'User Growth'} transitionDelay={0.3}>
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={USER_GROWTH_DATA}>
