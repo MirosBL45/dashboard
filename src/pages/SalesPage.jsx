@@ -4,7 +4,10 @@ import {
   PageWrapper,
   StatCard,
 } from '../components/common/w-allCommon';
-import { SalesOverviewChart } from '../components/sales/w-allSales';
+import {
+  SalesOverviewChart,
+  SalesByCategoryChart,
+} from '../components/sales/w-allSales';
 
 export default function SalesPage() {
   return (
@@ -27,7 +30,10 @@ export default function SalesPage() {
       mainContent={
         <>
           <SalesOverviewChart />
-          <BottomPageWrapper>bottom page</BottomPageWrapper>
+          <BottomPageWrapper>
+            <SalesByCategoryChart />
+            <div>some content</div>
+          </BottomPageWrapper>
         </>
       }
     />

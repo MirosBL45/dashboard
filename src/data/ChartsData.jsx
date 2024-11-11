@@ -259,3 +259,11 @@ export const SALES_DATA_MONTH = [
   { date: '25', sales: 4700 },
   { date: '30', sales: 5500 },
 ];
+
+export const SALES_BY_CATEGORY = [
+  { name: 'Electronics', value: 400, color: '#8884d8' },
+  { name: 'Clothing', value: 300, color: '#82ca9d' },
+  { name: 'Home & Garden', value: 200, color: '#ffc658' },
+  { name: 'Books', value: 100, color: '#0658b5' },
+  { name: 'Others', value: 150, color: '#b50404' },
+];
