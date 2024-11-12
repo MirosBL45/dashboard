@@ -13,6 +13,8 @@ import {
   UserX,
   CreditCard,
   ShoppingCart,
+  CheckCircle,
+  Clock,
 } from 'lucide-react';
 
 export const STATCARD_ITEMS_OVP = [
@@ -61,4 +63,31 @@ export const SALES_STATS_SP = [
     color: '#F59E0B',
   },
   { name: 'Sales Growth', icon: TrendingUp, value: '12.3%', color: '#EF4444' },
+];
+
+export const ORDER_STATS_OP = [
+  {
+    name: 'Total Orders',
+    icon: ShoppingBag,
+    value: '1,234',
+    color: '#6366F1',
+  },
+  {
+    name: 'Pending Orders',
+    icon: Clock,
+    value: '56',
+    color: '#EF4444',
+  },
+  {
+    name: 'Completed Orders',
+    icon: CheckCircle,
+    value: '1,178',
+    color: '#10B981',
+  },
+  {
+    name: 'Total Revenue',
+    icon: DollarSign,
+    value: '$98,765',
+    color: '#F59E0B',
+  },
 ];
