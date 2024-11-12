@@ -7,6 +7,7 @@ import {
 import {
   SalesOverviewChart,
   SalesByCategoryChart,
+  DailySalesTrend,
 } from '../components/sales/w-allSales';
 
 export default function SalesPage() {
@@ -32,7 +33,7 @@ export default function SalesPage() {
           <SalesOverviewChart />
           <BottomPageWrapper>
             <SalesByCategoryChart />
-            <div>some content</div>
+            <DailySalesTrend />
           </BottomPageWrapper>
         </>
       }
