@@ -277,3 +277,13 @@ export const DAILY_SALES_DATA = [
   { name: 'Sat', sales: 1600 },
   { name: 'Sun', sales: 1400 },
 ];
+
+export const DAILY_ORDERS_DATA = [
+  { date: '07/01', orders: 45 },
+  { date: '07/02', orders: 52 },
+  { date: '07/03', orders: 49 },
+  { date: '07/04', orders: 60 },
+  { date: '07/05', orders: 55 },
+  { date: '07/06', orders: 58 },
+  { date: '07/07', orders: 62 },
+];
