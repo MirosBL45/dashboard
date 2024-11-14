@@ -287,3 +287,10 @@ export const DAILY_ORDERS_DATA = [
   { date: '07/06', orders: 70 },
   { date: '07/07', orders: 62 },
 ];
+
+export const ORDER_STATUS_DATA = [
+  { name: 'Pending', value: 30, color: '#6fae16' },
+  { name: 'Processing', value: 45, color: '#c01bad' },
+  { name: 'Shipped', value: 60, color: '#3947ea' },
+  { name: 'Delivered', value: 120, color: '#26f50b' },
+];
