@@ -29,6 +29,7 @@ export default function UsersTable() {
         title="Users"
         searchTerm={searchTerm}
         onSearchChange={handleSearch}
+        placeholder={'Search users...'}
       />
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-700">

@@ -31,6 +31,7 @@ export default function ProductsTable() {
         title="Product List"
         searchTerm={searchTerm}
         onSearchChange={handleSearch}
+        placeholder={'Search products...'}
       />
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-700">

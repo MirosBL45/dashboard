@@ -7,6 +7,7 @@ import {
 import {
   DailyOrders,
   OrderDistribution,
+  OrdersTable,
 } from '../components/orders/w-allOrders';
 
 export default function OrdersPage() {
@@ -33,7 +34,7 @@ export default function OrdersPage() {
             <DailyOrders />
             <OrderDistribution />
           </BottomPageWrapper>
-          <div>content3</div>
+          <OrdersTable />
         </>
       }
     />
