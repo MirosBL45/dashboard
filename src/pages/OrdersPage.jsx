@@ -4,7 +4,10 @@ import {
   PageWrapper,
   StatCard,
 } from '../components/common/w-allCommon';
-import { DailyOrders } from '../components/orders/w-allOrders';
+import {
+  DailyOrders,
+  OrderDistribution,
+} from '../components/orders/w-allOrders';
 
 export default function OrdersPage() {
   return (
@@ -28,7 +31,7 @@ export default function OrdersPage() {
         <>
           <BottomPageWrapper>
             <DailyOrders />
-            <div>content2</div>
+            <OrderDistribution />
           </BottomPageWrapper>
           <div>content3</div>
         </>
