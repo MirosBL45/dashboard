@@ -294,3 +294,71 @@ export const ORDER_STATUS_DATA = [
   { name: 'Shipped', value: 60, color: '#3947ea' },
   { name: 'Delivered', value: 120, color: '#26f50b' },
 ];
+
+export const HEADER_ORDERS = [
+  'Order ID',
+  'Customer',
+  'Total',
+  'Status',
+  'Date',
+  'Actions',
+];
+
+export const ORDER_DATA = [
+  {
+    id: 'ORD001',
+    customer: 'John Doe',
+    total: 235.4,
+    status: 'Delivered',
+    date: '2023-07-01',
+  },
+  {
+    id: 'ORD002',
+    customer: 'Jane Smith',
+    total: 412.0,
+    status: 'Processing',
+    date: '2023-07-02',
+  },
+  {
+    id: 'ORD003',
+    customer: 'Bob Johnson',
+    total: 162.5,
+    status: 'Shipped',
+    date: '2023-07-03',
+  },
+  {
+    id: 'ORD004',
+    customer: 'Alice Brown',
+    total: 750.2,
+    status: 'Pending',
+    date: '2023-07-04',
+  },
+  {
+    id: 'ORD005',
+    customer: 'Charlie Wilson',
+    total: 95.8,
+    status: 'Delivered',
+    date: '2023-07-05',
+  },
+  {
+    id: 'ORD006',
+    customer: 'Eva Martinez',
+    total: 310.75,
+    status: 'Processing',
+    date: '2023-07-06',
+  },
+  {
+    id: 'ORD007',
+    customer: 'David Lee',
+    total: 528.9,
+    status: 'Shipped',
+    date: '2023-07-07',
+  },
+  {
+    id: 'ORD008',
+    customer: 'Grace Taylor',
+    total: 189.6,
+    status: 'Delivered',
+    date: '2023-07-08',
+  },
+];

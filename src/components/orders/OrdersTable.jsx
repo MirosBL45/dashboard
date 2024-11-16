@@ -1,5 +1,6 @@
 import TableSearchHeader from '../common/TableSearchHeader';
 import { motion } from 'framer-motion';
+import { HEADER_ORDERS, ORDER_DATA } from '../../data/ChartsData';
 
 export default function OrdersTable() {
   return (
@@ -10,6 +11,22 @@ export default function OrdersTable() {
       transition={{ delay: 0.4 }}
     >
       <TableSearchHeader title="Order List" placeholder={'Search orders...'} />
+      <div className="overflow-x-auto">
+        <table className="min-w-full divide-y divide-gray-700">
+          <thead>
+            <tr>
+              {HEADER_ORDERS.map((head, index) => (
+                <th
+                  key={index}
+                  className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider"
+                >
+                  {head}
+                </th>
+              ))}
+            </tr>
+          </thead>
+        </table>
+      </div>
     </motion.div>
   );
 }
