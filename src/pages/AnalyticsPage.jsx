@@ -1,6 +1,9 @@
 import { Header } from '../components/common/w-allCommon';
 
-import { OverviewCards } from '../components/analytics/w-allAnalytics';
+import {
+  OverviewCards,
+  RevenueChart,
+} from '../components/analytics/w-allAnalytics';
 
 export default function AnalyticsPage() {
   return (
@@ -8,6 +11,7 @@ export default function AnalyticsPage() {
       <Header title={'Analytics Dashboard'} />
       <main className="max-w-7xl mx-auto py-6 px-4 lg:px-8">
         <OverviewCards />
+        <RevenueChart />
       </main>
     </div>
   );

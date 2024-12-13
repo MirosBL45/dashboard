@@ -362,3 +362,33 @@ export const ORDER_DATA = [
     date: '2023-07-08',
   },
 ];
+
+export const REVENUE_DATA_HALF = [
+  { month: 'Jan', revenue: 4000, target: 3800 },
+  { month: 'Feb', revenue: 3000, target: 3200 },
+  { month: 'Mar', revenue: 5000, target: 4500 },
+  { month: 'Apr', revenue: 1500, target: 4200 },
+  { month: 'May', revenue: 6000, target: 5500 },
+  { month: 'Jun', revenue: 5500, target: 5800 },
+];
+
+export const REVENUE_DATA_QUARTER = [
+  { month: 'Apr', revenue: 1500, target: 4200 },
+  { month: 'May', revenue: 6000, target: 5500 },
+  { month: 'Jun', revenue: 5500, target: 5800 },
+];
+
+export const REVENUE_DATA_YEAR = [
+  { month: 'Jan', revenue: 4000, target: 3800 },
+  { month: 'Feb', revenue: 3000, target: 3200 },
+  { month: 'Mar', revenue: 5000, target: 4500 },
+  { month: 'Apr', revenue: 1500, target: 4200 },
+  { month: 'May', revenue: 6000, target: 5500 },
+  { month: 'Jun', revenue: 5500, target: 5800 },
+  { month: 'Jul', revenue: 6500, target: 5800 },
+  { month: 'Aug', revenue: 3300, target: 1500 },
+  { month: 'Sep', revenue: 2290, target: 4100 },
+  { month: 'Oct', revenue: 1090, target: 2000 },
+  { month: 'Nov', revenue: 5750, target: 4800 },
+  { month: 'Dec', revenue: 7500, target: 6800 },
+];
