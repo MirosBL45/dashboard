@@ -15,6 +15,7 @@ import {
   ShoppingCart,
   CheckCircle,
   Clock,
+  Eye,
 } from 'lucide-react';
 
 export const STATCARD_ITEMS_OVP = [
@@ -90,4 +91,11 @@ export const ORDER_STATS_OP = [
     value: '$98,765',
     color: '#F59E0B',
   },
+];
+
+export const ANALYTICS_DATA = [
+  { name: 'Revenue', value: '$1,234,567', change: 12.5, icon: DollarSign },
+  { name: 'Users', value: '45,679', change: 8.3, icon: Users },
+  { name: 'Orders', value: '9,876', change: -3.2, icon: ShoppingBag },
+  { name: 'Page Views', value: '1,234,567', change: 15.7, icon: Eye },
 ];
