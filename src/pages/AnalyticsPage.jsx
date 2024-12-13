@@ -1,3 +1,9 @@
+import {
+  BottomPageWrapper,
+  PageWrapper,
+  StatCard,
+} from '../components/common/w-allCommon';
+
 export default function AnalyticsPage() {
-  return <div>AnalyticsPage</div>;
+  return <PageWrapper title={'Analytics'} />;
 }
