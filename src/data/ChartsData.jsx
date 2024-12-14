@@ -392,3 +392,12 @@ export const REVENUE_DATA_YEAR = [
   { month: 'Nov', revenue: 5750, target: 4800 },
   { month: 'Dec', revenue: 7500, target: 6800 },
 ];
+
+export const ANALYTICS_PERFORMANCE_DATA = [
+  { name: 'Organic Search', value: 4000, color: '#6fae16' },
+  { name: 'Paid Search', value: 3000, color: '#c01bad' },
+  { name: 'Direct', value: 2000, color: '#3947ea' },
+  { name: 'Social Media', value: 2780, color: '#f50b0b' },
+  { name: 'Referral', value: 1890, color: '#e0fe00' },
+  { name: 'Email', value: 2390, color: '#ff8042' },
+];

@@ -1,3 +1,12 @@
+import CategoryChart from '../common/CategoryChart';
+import { ANALYTICS_PERFORMANCE_DATA } from '../../data/ChartsData';
+
 export default function ChannelPerformanceChart() {
-  return <div>ChannelPerformanceChart</div>;
+  return (
+    <CategoryChart
+      CATEGORY_DATA={ANALYTICS_PERFORMANCE_DATA}
+      title="Channel Performance"
+      transitionDelay={0.3}
+    />
+  );
 }
