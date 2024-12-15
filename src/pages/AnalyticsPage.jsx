@@ -4,6 +4,7 @@ import {
   OverviewCards,
   RevenueChart,
   ChannelPerformanceChart,
+  ProductPerformance,
 } from '../components/analytics/w-allAnalytics';
 
 export default function AnalyticsPage() {
@@ -15,6 +16,7 @@ export default function AnalyticsPage() {
         <RevenueChart />
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
           <ChannelPerformanceChart />
+          <ProductPerformance />
         </div>
       </main>
     </div>
