@@ -401,3 +401,17 @@ export const ANALYTICS_PERFORMANCE_DATA = [
   { name: 'Referral', value: 1890, color: '#e0fe00' },
   { name: 'Email', value: 2390, color: '#ff8042' },
 ];
+
+export const PRODUCT_PERFORMANCE_DATA = [
+  { name: 'Phone', sales: 4000, revenue: 2400, profit: 2200 },
+  { name: 'Chair', sales: 3000, revenue: 1398, profit: 2210 },
+  { name: 'Desk', sales: 2000, revenue: 7800, profit: 2290 },
+  { name: 'Astera', sales: 2780, revenue: 3908, profit: 2000 },
+  { name: 'Arri', sales: 1890, revenue: 4800, profit: 2181 },
+];
+
+export const PRODUCT_PERFORMANCE_COLOR = [
+  { id: 1, name: 'sales', color: '#8B5CF6' },
+  { id: 2, name: 'revenue', color: '#10B981' },
+  { id: 3, name: 'profit', color: '#def50b' },
+];
