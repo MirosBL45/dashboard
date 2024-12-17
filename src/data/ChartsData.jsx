@@ -415,3 +415,14 @@ export const PRODUCT_PERFORMANCE_COLOR = [
   { id: 2, name: 'revenue', color: '#10B981' },
   { id: 3, name: 'profit', color: '#def50b' },
 ];
+
+export const USER_RETAN_DATA = [
+  { name: 'Week 1', retention: 100 },
+  { name: 'Week 2', retention: 75 },
+  { name: 'Week 3', retention: 60 },
+  { name: 'Week 4', retention: 80 },
+  { name: 'Week 5', retention: 45 },
+  { name: 'Week 6', retention: 40 },
+  { name: 'Week 7', retention: 59 },
+  { name: 'Week 8', retention: 35 },
+];
