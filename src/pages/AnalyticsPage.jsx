@@ -6,6 +6,7 @@ import {
   ChannelPerformanceChart,
   ProductPerformance,
   UserRetention,
+  CustomerSegmentation,
 } from '../components/analytics/w-allAnalytics';
 
 export default function AnalyticsPage() {
@@ -19,6 +20,7 @@ export default function AnalyticsPage() {
           <ChannelPerformanceChart />
           <ProductPerformance />
           <UserRetention />
+          <CustomerSegmentation />
         </div>
       </main>
     </div>

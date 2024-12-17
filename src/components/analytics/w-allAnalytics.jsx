@@ -3,6 +3,7 @@ import RevenueChart from './RevenueChart';
 import ChannelPerformanceChart from './ChannelPerformanceChart';
 import ProductPerformance from './ProductPerformance';
 import UserRetention from './UserRetention';
+import CustomerSegmentation from './CustomerSegmentation';
 
 export {
   OverviewCards,
@@ -10,4 +11,5 @@ export {
   ChannelPerformanceChart,
   ProductPerformance,
   UserRetention,
+  CustomerSegmentation,
 };
