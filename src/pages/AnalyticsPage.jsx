@@ -7,6 +7,7 @@ import {
   ProductPerformance,
   UserRetention,
   CustomerSegmentation,
+  AIPoweredInsights,
 } from '../components/analytics/w-allAnalytics';
 
 export default function AnalyticsPage() {
@@ -22,6 +23,7 @@ export default function AnalyticsPage() {
           <UserRetention />
           <CustomerSegmentation />
         </div>
+        <AIPoweredInsights />
       </main>
     </div>
   );
