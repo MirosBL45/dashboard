@@ -1,3 +1,4 @@
 import Profile from './Profile';
+import Notifications from './Notifications';
 
-export { Profile };
+export { Profile, Notifications };
