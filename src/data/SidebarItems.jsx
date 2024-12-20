@@ -17,3 +17,9 @@ export const SIDEBAR_ITEMS = [
   { name: 'Analytics', icon: TrendingUp, color: '#3B82F6', href: '/analytics' },
   { name: 'Settings', icon: Settings, color: '#6EE7B7', href: '/settings' },
 ];
+
+export const NOTIFICATION_OPTIONS = [
+  { key: 'push', label: 'Push Notifications' },
+  { key: 'email', label: 'Email Notifications' },
+  { key: 'sms', label: 'SMS Notifications' },
+];
