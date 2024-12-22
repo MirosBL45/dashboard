@@ -4,6 +4,7 @@ import {
   Profile,
   Notifications,
   Security,
+  ConnectedAccounts,
 } from '../components/settings/w-allSettings';
 
 export default function SettingsPage() {
@@ -14,6 +15,7 @@ export default function SettingsPage() {
         <Profile />
         <Notifications />
         <Security />
+        <ConnectedAccounts />
       </main>
     </div>
   );
