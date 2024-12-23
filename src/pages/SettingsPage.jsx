@@ -5,6 +5,7 @@ import {
   Notifications,
   Security,
   ConnectedAccounts,
+  DangerZone,
 } from '../components/settings/w-allSettings';
 
 export default function SettingsPage() {
@@ -16,6 +17,7 @@ export default function SettingsPage() {
         <Notifications />
         <Security />
         <ConnectedAccounts />
+        <DangerZone />
       </main>
     </div>
   );
