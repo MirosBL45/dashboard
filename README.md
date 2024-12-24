@@ -4,7 +4,7 @@ This project is a **Dashboard Application** that provides an intuitive interface
 
 ### 1. **Framework and Core**
 
-- **Vite.js**: A fast and modern frontend build tool for creating highly optimized applications with a great developer experience.
+- **Vite.js on React**: A fast and modern frontend build tool for creating highly optimized applications with a great developer experience.
   - <a href="https://vitejs.dev/" target="_blank">Learn more about Vite.js</a>
 
 ### 2. **UI and Animations**
