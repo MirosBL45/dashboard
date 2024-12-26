@@ -4,6 +4,7 @@ import ToggleSwitch from './ToggleSwitch';
 import Security from './Security';
 import ConnectedAccounts from './ConnectedAccounts';
 import DangerZone from './DangerZone';
+import SettingSection from './SettingSection';
 
 export {
   Profile,
@@ -12,4 +13,5 @@ export {
   Security,
   ConnectedAccounts,
   DangerZone,
+  SettingSection,
 };
